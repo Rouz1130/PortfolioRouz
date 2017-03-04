@@ -12,10 +12,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Classy Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+<meta name="keywords" content="Resume Responsive , Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	 <script type="text/javascript" src="build/js/app.js"></script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -139,7 +141,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Email Address</h4>
-						<p><a href="mailto:example@email.com">rmajlessi@gmail.com</a></p>
+						<p><a href="https://formspree.io/rmajlessi@gmail.com">rmajlessi@gmail.com</a></p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -309,7 +311,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
  <!-- /gallery-->
 	<div class="portfolio" id="gallery">
 		<div class="container">
-				<h3 class="w3l_head">My Gallery</h3>
+				<h3 class="w3l_head">My Projects</h3>
 			<p class="w3ls_head_para">See My Works</p>
 				<div class="agileits_portfolio_grids">
 				<div class="col-md-4 agileits_portfolio_grid">
@@ -317,7 +319,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/1.jpg">
 							<img src="images/1.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -326,7 +328,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/2.jpg">
 							<img src="images/2.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -335,7 +337,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/3.jpg">
 							<img src="images/3.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -346,7 +348,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/4.jpg">
 							<img src="images/4.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -355,7 +357,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/5.jpg">
 							<img src="images/5.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -364,7 +366,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/6.jpg">
 							<img src="images/6.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -375,7 +377,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/7.jpg">
 							<img src="images/7.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -384,7 +386,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/8.jpg">
 							<img src="images/8.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -393,7 +395,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						<a class="cm-overlay" href="images/9.jpg">
 							<img src="images/9.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
-								<h4>Classy Resume</h4>
+								<h4>Resume</h4>
 
 							</div>
 						</a>
@@ -458,32 +460,37 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 			<h3 class="w3l_head w3l_head1">Contact Me</h3>
 			<p class="w3ls_head_para w3ls_head_para1">send Me a message</p>
 			<div class="w3_mail_grids">
-				<form action="#" method="post">
+
+				<form id="contactform" action="https://formspree.io/rmajlessi@gmail.com" method="post">
 					<div class="col-md-6 w3_agile_mail_grid">
 						<span class="input input--ichiro">
-							<input class="input__field input__field--ichiro" type="text" id="input-25" placeholder=" " required="">
+							<input class="input__field input__field--ichiro" type="text" id="input-25" name="name" placeholder=" " required="">
 							<label class="input__label input__label--ichiro" for="input-25">
-								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+								<span class="input__label-content input__label-content--ichiro" name="name">Your Name</span>
 							</label>
 						</span>
+
 						<span class="input input--ichiro">
-							<input class="input__field input__field--ichiro" type="email" id="input-26" placeholder=" " required="">
+							<input class="input__field input__field--ichiro" type="email" id="input-26" name="email"placeholder=" " required="">
 							<label class="input__label input__label--ichiro" for="input-26">
-								<span class="input__label-content input__label-content--ichiro">Your Email</span>
+								<span class="input__label-content input__label-content--ichiro"name="_replyto">Your Email</span>
 							</label>
 						</span>
+
 						<span class="input input--ichiro">
-							<input class="input__field input__field--ichiro" type="text" id="input-27" placeholder=" " required="">
+							<input class="input__field input__field--ichiro" type="text" id="input-27"  name="phone" placeholder=" " required="">
 							<label class="input__label input__label--ichiro" for="input-27">
-								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
+								<span class="input__label-content input__label-content--ichiro"  name="phone">Your Phone Number</span>
 							</label>
 						</span>
 
 					</div>
 					<div class="col-md-6 w3_agile_mail_grid">
-						<textarea name="Message" placeholder="Your Message" required=""></textarea>
+						<textarea name="Message" placeholder="Your Message" required=""  name="text"></textarea>
 						<input type="submit" value="Submit">
 					</div>
+
+
 					<div class="clearfix"> </div>
 				</form>
 			</div>
@@ -514,7 +521,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						</div>
 						<div class="w3ls_footer_grid_leftr">
 							<h4>Email</h4>
-							<a href="mailto:rmajlessi@gmail.com">rmajlessi@gmail.com</a>
+							<a href="https://formspree.io/rmajlessi@gmail.com">rmajlessi@gmail.com</a>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
