@@ -455,26 +455,48 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 </div>
 <!--counter-->
 <!-- mail -->
+<!--
+ <div class="mail" id="mail">
+	<div class="container">
+		<h3 class="w3l_head w3l_head1">Contact Me</h3>
+		<p class="w3ls_head_para w3ls_head_para1">send Me a message</p>
+		<div class="w3_mail_grids">
+
+
 
 <form id="contactform" method="POST">
+	<div class="col-md-6 w3_agile_mail_grid">
     <input type="text" name="name" placeholder="Your name">
+	</div>
+	<div class="col-md-6 w3_agile_mail_grid">
     <input type="email" name="_replyto" placeholder="Your email">
+	</div>
     <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
+		<div class="col-md-6 w3_agile_mail_grid">
+    <textarea name="Message" placeholder="Your Message"></textarea>
     <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send">
-</form>
-<script>
+	</span>
+	</div>
+</form> -->
+<!-- <div class="col-md-6 w3_agile_mail_grid">
+	<textarea name="Message" placeholder="Your Message" required=""  name="text"></textarea>
+	<input type="submit" value="Submit">
+</div> -->
+<!-- <script>
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'rmajlessi' + '@' + 'gmail' + '.' + 'com');
-</script>
-	<!-- <div class="mail" id="mail">
+</script> -->
+
+
+
+	<div class="mail" id="mail">
 		<div class="container">
 			<h3 class="w3l_head w3l_head1">Contact Me</h3>
 			<p class="w3ls_head_para w3ls_head_para1">send Me a message</p>
 			<div class="w3_mail_grids">
 
-				<form id="contactform" action="https://formspree.io/rmajlessi@gmail.com" method="post">
+				<form id="contactform"  method="Post">
 					<div class="col-md-6 w3_agile_mail_grid">
 						<span class="input input--ichiro">
 							<input class="input__field input__field--ichiro" type="text" id="input-25" name="name" placeholder=" " required="">
@@ -501,11 +523,16 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 					<div class="col-md-6 w3_agile_mail_grid">
 						<textarea name="Message" placeholder="Your Message" required=""  name="text"></textarea>
 						<input type="submit" value="Submit">
-					</div> -->
+					</div>
 
 
 					<div class="clearfix"> </div>
 				</form>
+				<script>
+				    var contactform =  document.getElementById('contactform');
+				    contactform.setAttribute('action', '//formspree.io/' + 'rmajlessi' + '@' + 'gmail' + '.' + 'com');
+				</script>
+
 			</div>
 		</div>
 	</div>
