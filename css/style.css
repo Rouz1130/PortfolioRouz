@@ -409,8 +409,8 @@ ul.top-links li a i.fa:hover {
 .w3ls-agile-left-info {
     padding: 1em 0;
     border-bottom: 1px dashed #44c7f4;
-}
-.w3ls-agile-left-info h4, .social-info h4 {
+}`
+.w3ls-agile-left-info h4, .social-info h4 {`
     font-size: 1.6em;
     margin: 0;
     color: #212121;
@@ -706,6 +706,11 @@ p.b_label {
     padding: 0 4px;
 }
 /*-- //portfolio --*/
+hr{
+color: #44c7f4;
+}
+
+
 #counter {
     background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
@@ -733,12 +738,13 @@ p.counter {
 	 font-size:2em;
     text-transform: uppercase;
        color: #44c7f4;
-	
+
 }
 .count {
     padding-top: 11em;
 }
 /*-- mail --*/
+
 .w3_mail_grids textarea{
 	outline: none;
     padding: 10px;
@@ -1020,7 +1026,7 @@ p.counter {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1122,7 +1128,7 @@ p.counter {
 		display: block;
 		padding:14px 6px;
 	}
-}	
+}
 @media (max-width: 991px){
 	#home {
 		min-height: 559px;
@@ -1295,7 +1301,7 @@ p.counter {
 		font-size: 1.8em;
 		margin: 0.3em 0;
 	}
-	
+
 }
 @media (max-width: 667px){
 	#home {
@@ -1638,7 +1644,7 @@ p.counter {
 		bottom: -117%;
 		left: 26%;
 	}
-	
+
 	.banner img {
 		border: 5px solid #44c7f4;
 		width: 45%;
