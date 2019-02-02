@@ -15,6 +15,14 @@ p,ul li,ol li{
 	font-size:14px;
 	letter-spacing: 1px;
 }
+/* bullet list for job experience list */
+.b-list {
+	font-size: 0.9em;
+    line-height: 1.9em;
+	color: #777;
+	margin-left: 5%;
+    margin-top: 10px;
+}
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Gidugu', sans-serif;
 	text-transform:uppercase;
@@ -163,7 +171,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 715px;
+    min-height: 715px;
     position: relative;
 }
 .banner {
@@ -172,9 +180,9 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     padding-top: 6em;
 }
 .banner img {
-       margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
-    border: 7px solid #44c7f4;
+    border: 6px solid #fff;;
 }
 .banner h2 {
     font-size: 3.5em;
@@ -255,7 +263,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
  .callbacks_nav {
     position: absolute;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-       bottom: 24%;
+    bottom: 24%;
     left: 0;
     z-index: 3;
     text-indent: -9999px;
@@ -426,8 +434,11 @@ ul.top-links li a i.fa:hover {
     letter-spacing: 2px;
 }
 .w3ls-agile-left-info p {
-    color: #827e7e;
-    font-size: 0.95em;
+    /* color: #827e7e; */
+	font-size: 0.9em;
+    line-height: 1.9em;
+    color: #777;
+    margin-top: 10px;
 }
 .agile-about-right-img img {
     width: 100%;
@@ -523,14 +534,15 @@ h3.w3l_head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/banner.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 690px;
-    padding-top: 9em;
+    min-height: 690px;
+	padding-top: 9em;
+	padding-bottom: 9em;
 }
 .skill-agile h4 {
     font-size: 1.6em;
@@ -574,10 +586,12 @@ body .bar_group__bar.thin:last-child {
     margin: 3em 0 0;
 }
 p.b_label {
-    font-size: .9em;
+	font-size: .9em;
     text-transform: uppercase;
-    color:#ffffff;
-     margin-bottom: 1em;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    word-spacing: 3.5px;
 }
 /*-- //skills --*/
 /*-- /education --*/
@@ -1338,7 +1352,7 @@ p.counter {
 		padding: 0em 0;
 	}
 	.banner img {
-		border: 5px solid #44c7f4;
+		border: 5px solid #fff;
 		width: 31%;
 	}
 }
